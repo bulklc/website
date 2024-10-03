@@ -46,9 +46,9 @@ const document_list = [
     label: "Physics Books",
     name: "physics_books",
     files: [
-      "physics_manual_cameroon_F03.pdf",
-      "physics_manual_guinea_F10.pdf",
       "physics_manual_guinea_N09.pdf",
+            "physics_manual_guinea_N10.pdf",
+                  "physics_manual_cameroon_F03.pdf",
       "physics_manual_liberia_university.pdf",
     ],
   },
