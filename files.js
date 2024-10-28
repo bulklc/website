@@ -1,5 +1,29 @@
 const document_list = [
   {
+    label: "Physics Books",
+    name: "physics_books",
+    files: [
+      "physics_manual_guinea_N09.pdf",
+      "physics_manual_guinea_N10.pdf",
+      "physics_manual_cameroon_F03.pdf",
+      "physics_manual_liberia_university.pdf",
+    ],
+  },
+  {
+    label: "Water Filter Models",
+    name: "pure_paani",
+    files: [
+      "pure_paani_detail_and_assembly_01.00.pdf",
+      "pure_paani_detail_and_assembly_01.01.pdf",
+      "pure_paani_detail_and_assembly_03.01.pdf",
+      "pure_paani_detail_and_assembly_04.00.pdf",
+      "pure_paani_detail_and_assembly_05.00.pdf",
+      "pure_paani_detail_and_assembly_05.01.pdf",
+      "pure_paani_detail_and_assembly_05.02.pdf",
+      "pure_paani_detail_and_assembly_06.00.pdf",
+    ],
+  },
+  {
     label: "3D Modeling",
     name: "3D_modeling",
     files: [
@@ -10,8 +34,13 @@ const document_list = [
       "shed.pdf",
       "shelves_001.pdf",
       "shelves_002.pdf",
-      "peltier_cooler.pdf"
+      "peltier_cooler.pdf",
     ],
+  },
+  {
+    label: "PE Materials",
+    name: "PE_materials",
+    files: ["effective_seismic_weight.pdf", "horizontal_curve.pdf"],
   },
   {
     label: "Grad Assignments",
@@ -37,36 +66,7 @@ const document_list = [
       "solving_for_frication_factor.pdf",
       "volume_of_a_solid.pdf",
     ],
-  },
-  {
-    label: "PE Materials",
-    name: "PE_materials",
-    files: ["effective_seismic_weight.pdf", "horizontal_curve.pdf"],
-  },
-  {
-    label: "Physics Books",
-    name: "physics_books",
-    files: [
-      "physics_manual_guinea_N09.pdf",
-            "physics_manual_guinea_N10.pdf",
-                  "physics_manual_cameroon_F03.pdf",
-      "physics_manual_liberia_university.pdf",
-    ],
-  },
-  {
-    label: "Water Filter Models",
-    name: "pure_paani",
-    files: [
-      "pure_paani_detail_and_assembly_01.00.pdf",
-      "pure_paani_detail_and_assembly_01.01.pdf",
-      "pure_paani_detail_and_assembly_03.01.pdf",
-      "pure_paani_detail_and_assembly_04.00.pdf",
-      "pure_paani_detail_and_assembly_05.00.pdf",
-      "pure_paani_detail_and_assembly_05.01.pdf",
-      "pure_paani_detail_and_assembly_05.02.pdf",
-      "pure_paani_detail_and_assembly_06.00.pdf",
-    ],
-  },
+  }
 ];
 
 // export default document_list;
