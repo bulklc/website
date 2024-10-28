@@ -9,6 +9,7 @@ const document_list = [
       "pump_enclosure.pdf",
       "shed.pdf",
       "shelves_001.pdf",
+      "shelves_002.pdf",
       "peltier_cooler.pdf"
     ],
   },
