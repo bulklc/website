@@ -34,6 +34,7 @@ const document_list = [
       "shed.pdf",
       "shelves_001.pdf",
       "shelves_002.pdf",
+      "shelves_003.pdf",
       "peltier_cooler.pdf",
     ],
   },
