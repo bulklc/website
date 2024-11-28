@@ -61,6 +61,13 @@ const document_list = [
     ],
   },
   {
+    label: "Ocean Sphere",
+    name: "ocean_sphere",
+    files: [
+      "ocean_sphere_001.pdf"
+    ],
+  },
+  {
     label: "Misc.",
     name: "misc",
     files: [
