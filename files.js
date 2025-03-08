@@ -68,6 +68,15 @@ const document_list = [
     ],
   },
   {
+    label: "Lock Out Tag Out Narrative Charts",
+    name: "loto_narratives",
+    files: [
+      "LOTO_narrative_000.pdf",
+      "LOTO_narrative_001.pdf",
+      "LOTO_narrative_002.pdf"
+    ],
+  },
+  {
     label: "Misc.",
     name: "misc",
     files: [
