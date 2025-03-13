@@ -72,6 +72,7 @@ const document_list = [
     name: "loto_narratives",
     files: [
       "LOTO_narrative_one_box_001.pdf",
+      "LOTO_narrative_one_box_002.pdf",
       "LOTO_narrative_two_boxes_001.pdf",
       "LOTO_narrative_two_boxes_002.pdf",
       "LOTO_narrative_two_boxes_003.pdf"
