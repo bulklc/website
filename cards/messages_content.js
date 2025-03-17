@@ -1,8 +1,5 @@
 // var dummy_text = 'Hey person 1, how are you doing?';
 
-
-
-
 card_messages = {
   "0001": { date: "2025_03_16", content: "Hey person 1, how are you doing?" },
   "0002": { date: "2025_03_17", content: "Hey person 2, how are you doing?" },

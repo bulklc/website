@@ -10,12 +10,6 @@ body {
   overflow: hidden; /* Prevent vertical scroll */
 }
 
-#code_system {
-  height: 100vh;
-  overflow: hidden;
-}
-
-
 .keypad-container {
   display: flex;
   flex-direction: column;
