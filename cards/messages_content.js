@@ -2,8 +2,6 @@ var dummy_text = "Hey person 1, how are you doing? ";
 
 dummy_text = dummy_text.repeat(100);
 
-console.log(dummy_text);
-
 card_messages = {
   "0001": { date: "2025_03_16", content: dummy_text },
   "0002": { date: "2025_03_17", content: "Hey person 2, how are you doing?" },
