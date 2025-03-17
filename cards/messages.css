@@ -10,7 +10,7 @@ body {
   overflow: hidden; /* Prevent vertical scroll */
 }
 
-#page-body {
+.page-body {
   display: flex;
   flex-direction: column;
   justify-content: center;
