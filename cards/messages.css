@@ -1,23 +1,25 @@
-#page-body {
+html, body {
   margin: 0;
-  padding: 10px;
+  padding: 0;
   box-sizing: border-box;
-  overflow: hidden;
+  overflow: hidden; /* Prevent vertical scroll */
+  height: 100%; /* Ensure full height */
+}
+
+#page-body {
   display: flex;
-  vertical-align: middle;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  min-height: -webkit-fill-available;
+  height: 100vh; /* Use 100vh to ensure full viewport height */
+  min-height: -webkit-fill-available; /* Ensure full height on iOS */
 }
 
 .keypad-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20px;
-  /* Add vertical space */
+  margin-top: 20px; /* Add vertical space */
   padding: 10px;
 }
 
@@ -96,24 +98,20 @@
 
 /* Responsive design for mobile devices */
 @media (max-width: 600px) {
-
   .key,
   .input-field {
     width: 50px;
     height: 50px;
     font-size: 14px;
   }
-
   .submit-button {
     padding: 15px;
     font-size: 14px;
   }
-
   .grid-container {
     grid-template-columns: 1fr 1fr;
     gap: 5px;
   }
-
   .keypad {
     gap: 5px;
   }
