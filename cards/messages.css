@@ -1,12 +1,11 @@
 body {
   display: flex;
-  vertical-align: middle;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  margin: 0;
+  height: 100%;
+  margin: auto; /*0; */
   flex-direction: column;
-  padding: 10px;
+  padding: auto; /*10px*/;
   box-sizing: border-box;
   overflow: hidden;
   /* Prevent vertical scroll */
@@ -14,6 +13,7 @@ body {
 
 .page-body {
   display: flex;
+  vertical-align: middle !important;
   flex-direction: column;
   justify-content: center;
   align-items: center;
