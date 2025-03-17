@@ -10,6 +10,14 @@ body {
   overflow: hidden; /* Prevent vertical scroll */
 }
 
+#page-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
 .keypad-container {
   display: flex;
   flex-direction: column;
@@ -80,7 +88,7 @@ body {
 }
 
 /* Responsive design for mobile devices */
-/* @media (max-width: 600px) {
+@media (max-width: 600px) {
   .key,
   .input-field {
     width: 50px;
@@ -98,4 +106,4 @@ body {
   .keypad {
     gap: 5px;
   }
-} */
+}
