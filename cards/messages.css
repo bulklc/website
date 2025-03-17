@@ -96,7 +96,7 @@ html, body {
   background-color: #cdae52;
 }
 
-/* Responsive design for mobile devices */
+/* Responsive design for mobile devices 
 @media (max-width: 600px) {
   .key,
   .input-field {
@@ -115,4 +115,4 @@ html, body {
   .keypad {
     gap: 5px;
   }
-}
+}*/
