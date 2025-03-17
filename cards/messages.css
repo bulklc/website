@@ -1,0 +1,72 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column;
+}
+.keypad-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px; /* Add vertical space */
+}
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.key,
+.input-field {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #678abd;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+  border: none;
+  outline: none;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+.input-field {
+  background-color: white;
+  color: #678abd;
+  border: 2px solid #678abd;
+  text-align: center;
+}
+.submit-button {
+  grid-column: span 3;
+  padding: 20px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 10px;
+  margin-top: 20px;
+}
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.highlight {
+  border: 2px solid #cdae52;
+}
+.key-pressed {
+  background-color: #cdae52;
+}
