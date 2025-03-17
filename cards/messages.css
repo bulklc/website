@@ -1,8 +1,10 @@
 body {
-  margin: 0; /* Remove margin */
+  margin: 0;
+  /* Remove margin */
   padding: 10px;
   box-sizing: border-box;
-  /*overflow: hidden;  Prevent vertical scroll */
+  overflow: scroll;
+  /*hidden;  Prevent vertical scroll */
 }
 
 #page-body {
@@ -17,7 +19,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20px; /* Add vertical space */
+  margin-top: 20px;
+  /* Add vertical space */
   padding: 10px;
 }
 
@@ -96,20 +99,24 @@ body {
 
 /* Responsive design for mobile devices */
 @media (max-width: 600px) {
+
   .key,
   .input-field {
     width: 50px;
     height: 50px;
     font-size: 14px;
   }
+
   .submit-button {
     padding: 15px;
     font-size: 14px;
   }
+
   .grid-container {
     grid-template-columns: 1fr 1fr;
     gap: 5px;
   }
+
   .keypad {
     gap: 5px;
   }
