@@ -1,4 +1,4 @@
-var dummy_text = "Hey person 1, how are you doing? ";
+var dummy_text = "Hey person 1, how are you doing? I hope you're well.";
 
 dummy_text = dummy_text.repeat(100);
 
