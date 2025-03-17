@@ -3,7 +3,7 @@ html, body {
   padding: 0;
   box-sizing: border-box;
   overflow: hidden; /* Prevent vertical scroll */
-  height: 100%; /* Ensure full height */
+  height: 90%; /* Ensure full height */
 }
 
 #page-body {
