@@ -73,7 +73,10 @@ function show_message(card_messages) {
   if (card_messages.hasOwnProperty(message_code)) {
     document.getElementById("access-grid").style.display = "none";
     document.getElementById("keypad").style.display = "none";
+
     document.getElementById("page-content").style.display = "block";
+
+    document.getElementById("page-body").style.overflow = "scroll";
 
     document.getElementById("page-content").innerHTML = `
       <div class="message">
