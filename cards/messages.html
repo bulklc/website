@@ -17,67 +17,69 @@
     <script src="./messages_content.js"></script>
   </head>
   <body>
-    <div id="access-grid" class="grid-container">
-      <div class="grid-item">
-        <input
-          type="text"
-          id="input1"
-          class="input-field"
-          placeholder="-"
-          disabled
-          onclick="setCurrentInput(0)"
-        />
+    <div id="code_system">
+      <div id="access-grid" class="grid-container">
+        <div class="grid-item">
+          <input
+            type="text"
+            id="input1"
+            class="input-field"
+            placeholder="-"
+            disabled
+            onclick="setCurrentInput(0)"
+          />
+        </div>
+        <div class="grid-item">
+          <input
+            type="text"
+            id="input2"
+            class="input-field"
+            placeholder="-"
+            disabled
+            onclick="setCurrentInput(1)"
+          />
+        </div>
+        <div class="grid-item">
+          <input
+            type="text"
+            id="input3"
+            class="input-field"
+            placeholder="-"
+            disabled
+            onclick="setCurrentInput(2)"
+          />
+        </div>
+        <div class="grid-item">
+          <input
+            type="text"
+            id="input4"
+            class="input-field"
+            placeholder="-"
+            disabled
+            onclick="setCurrentInput(3)"
+          />
+        </div>
       </div>
-      <div class="grid-item">
-        <input
-          type="text"
-          id="input2"
-          class="input-field"
-          placeholder="-"
-          disabled
-          onclick="setCurrentInput(1)"
-        />
-      </div>
-      <div class="grid-item">
-        <input
-          type="text"
-          id="input3"
-          class="input-field"
-          placeholder="-"
-          disabled
-          onclick="setCurrentInput(2)"
-        />
-      </div>
-      <div class="grid-item">
-        <input
-          type="text"
-          id="input4"
-          class="input-field"
-          placeholder="-"
-          disabled
-          onclick="setCurrentInput(3)"
-        />
+      <div id="keypad" class="keypad-container">
+        <div class="keypad">
+          <div class="key" onclick="handleKeyPress(this, '1')">1</div>
+          <div class="key" onclick="handleKeyPress(this, '2')">2</div>
+          <div class="key" onclick="handleKeyPress(this, '3')">3</div>
+          <div class="key" onclick="handleKeyPress(this, '4')">4</div>
+          <div class="key" onclick="handleKeyPress(this, '5')">5</div>
+          <div class="key" onclick="handleKeyPress(this, '6')">6</div>
+          <div class="key" onclick="handleKeyPress(this, '7')">7</div>
+          <div class="key" onclick="handleKeyPress(this, '8')">8</div>
+          <div class="key" onclick="handleKeyPress(this, '9')">9</div>
+          <div class="key" onclick="handleKeyPress(this, 'backward')">⟵</div>
+          <div class="key" onclick="handleKeyPress(this, '0')">0</div>
+          <div class="key" onclick="handleKeyPress(this, 'forward')">⟶</div>
+          <div class="submit-button" onclick="show_message(card_messages)">
+            Submit
+          </div>
+        </div>
       </div>
     </div>
-
-    <div id="keypad" class="keypad-container">
-      <div class="keypad">
-        <div class="key" onclick="handleKeyPress(this, '1')">1</div>
-        <div class="key" onclick="handleKeyPress(this, '2')">2</div>
-        <div class="key" onclick="handleKeyPress(this, '3')">3</div>
-        <div class="key" onclick="handleKeyPress(this, '4')">4</div>
-        <div class="key" onclick="handleKeyPress(this, '5')">5</div>
-        <div class="key" onclick="handleKeyPress(this, '6')">6</div>
-        <div class="key" onclick="handleKeyPress(this, '7')">7</div>
-        <div class="key" onclick="handleKeyPress(this, '8')">8</div>
-        <div class="key" onclick="handleKeyPress(this, '9')">9</div>
-        <div class="key" onclick="handleKeyPress(this, 'backward')">⟵</div>
-        <div class="key" onclick="handleKeyPress(this, '0')">0</div>
-        <div class="key" onclick="handleKeyPress(this, 'forward')">⟶</div>
-        <div class="submit-button" onclick="show_message(card_messages)">Submit</div>
-      </div>
-    </div>
-
     <div id="page-content" style="display: none">
       <h1>Welcome to the QR Code Page</h1>
       <p>This content is protected by an access code.</p>
