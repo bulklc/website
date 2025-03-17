@@ -48,8 +48,9 @@ html, body {
 }
 
 .input-field {
-  min-width: 4em;
-  min-height: 4em;
+  /* min-width: 4em;
+  min-height: 4em; */
+  padding: 0;
   background-color: white;
   color: #678abd;
   border: 0.2em solid #678abd;
