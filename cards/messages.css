@@ -1,18 +1,25 @@
-body {
+/* body {
   margin: 0;
-  /* Remove margin */
+  /* Remove margin 
   padding: 10px;
   box-sizing: border-box;
   overflow: scroll;
-  /*hidden;  Prevent vertical scroll */
-}
+  hidden;  Prevent vertical scroll 
+} */
 
 #page-body {
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: scroll;
   display: flex;
+  vertical-align: middle;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  min-height: -webkit-fill-available;
+  overflow: hidden;
 }
 
 .keypad-container {
