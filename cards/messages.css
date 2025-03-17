@@ -10,7 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 100px; /* Add vertical space */
+  margin-top: 40px; /* Add vertical space */
 }
 .keypad {
   display: grid;
@@ -39,6 +39,10 @@ body {
   color: #678abd;
   border: 2px solid #678abd;
   text-align: center;
+}
+.input-field:disabled {
+  opacity: 1; /* Override default opacity for disabled input fields */
+  color: #678abd; /* Ensure text color is visible */
 }
 .submit-button {
   grid-column: span 3;
