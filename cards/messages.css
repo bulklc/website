@@ -19,20 +19,20 @@ html, body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20px; /* Add vertical space */
-  padding: 10px;
+  margin-top: 1em; /* Add vertical space */
+  padding: 0.5em;
 }
 
 .keypad {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  gap: 1em;
 }
 
 .key,
 .input-field {
-  width: 60px;
-  height: 60px;
+  width: 3em;
+  height: 3em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,7 +50,7 @@ html, body {
 .input-field {
   background-color: white;
   color: #678abd;
-  border: 2px solid #678abd;
+  border: 0.2em solid #678abd;
   text-align: center;
 }
 
@@ -63,7 +63,7 @@ html, body {
 
 .submit-button {
   grid-column: span 3;
-  padding: 20px;
+  padding: 1em;
   text-align: center;
   background-color: black;
   color: white;
@@ -77,8 +77,8 @@ html, body {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  padding: 10px;
+  gap: 1em;
+  padding: 1em;
   /* margin-top: 20px; */
 }
 
@@ -89,7 +89,7 @@ html, body {
 }
 
 .highlight {
-  border: 2px solid #cdae52;
+  border: 0.2em solid #cdae52;
 }
 
 .key-pressed {
