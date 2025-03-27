@@ -119,3 +119,29 @@ html, body {
     gap: 5px;
   }
 }*/
+
+
+.letter-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2em;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.letter-header {
+  margin-bottom: 2em;
+}
+
+.letter-header p {
+  margin: 0;
+}
+
+.letter-body {
+  margin-bottom: 2em;
+}
+
+.letter-footer {
+  margin-top: 2em;
+}

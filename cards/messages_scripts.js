@@ -71,19 +71,47 @@ function show_message(card_messages) {
   const message_code = "".concat(input1, input2, input3, input4);
 
   if (card_messages.hasOwnProperty(message_code)) {
+    // document.getElementById("page-body").style.display = "block";
+    document.getElementById("page-body").style.overflow = "scroll";
+
     document.getElementById("access-grid").style.display = "none";
     document.getElementById("keypad").style.display = "none";
 
     document.getElementById("page-content").style.display = "block";
 
-    document.getElementById("page-body").style.overflow = "scroll";
-
     document.getElementById("page-content").innerHTML = `
-      <div class="message">
-        <p class="date">${card_messages[message_code].date}</p>
-        <p>${card_messages[message_code].content}</p>
+      <div class="letter-container">
+        <div class="letter-header">
+          <p><b>${card_messages[message_code].date}</b></p>
+        </div>
+        <div id="letter-body" class="letter-body">
+        </div>   
+        <div id="letter-footer" class="letter-footer">
+        </div>             
       </div>
     `;
+
+    card_messages[message_code].content["letter-body"].forEach((element) => {
+      const elementNode = document.createElement(element.element_type);
+
+      if (element.element_type === "ul") {
+        element.content.forEach((listItem) => {
+          const listItemNode = document.createElement("li");
+          listItemNode.innerHTML = listItem;
+          elementNode.appendChild(listItemNode);
+        });
+      } else {
+        elementNode.innerHTML = element.content;
+      }
+
+      document.getElementById("letter-body").appendChild(elementNode);
+    });
+
+    card_messages[message_code].content["letter-footer"].forEach((element) => {
+      const elementNode = document.createElement(element.element_type);
+      elementNode.innerHTML = element.content;
+      document.getElementById("letter-footer").appendChild(elementNode);
+    });
   } else {
     alert(
       "Sorry, no message was found under this four digit code. Please check and try again."
