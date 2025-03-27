@@ -3,7 +3,7 @@ html, body {
   padding: 0;
   box-sizing: border-box;
   overflow: hidden; /* Prevent vertical scroll */
-  height: 100%; /* Ensure full height */
+  height: 90%; /* Ensure full height */
 }
 
 #page-body {
@@ -11,7 +11,7 @@ html, body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Use 100vh to ensure full viewport height */
+  height: 90vh; /* Use 100vh to ensure full viewport height */
   min-height: -webkit-fill-available; /* Ensure full height on iOS */
 }
 
