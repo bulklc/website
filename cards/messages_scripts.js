@@ -77,7 +77,8 @@ function show_message(card_messages) {
     document.getElementById("keypad").style.display = "none";
 
     document.getElementById("page-content").style.display = "flex";
-    
+    // document.getElementById("page-body").style.display = "block";
+
     
 
     document.getElementById("page-content").innerHTML = `
