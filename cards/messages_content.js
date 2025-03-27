@@ -172,7 +172,6 @@ card_messages = {
           content:
             "Lastly, I hope you enjoy these flowers. I got this card at the De Young. Speaking of, when can I get soe more free tix?",
         },
-
       ],
       "letter-footer": [
         { element_type: "p", content: "Best," },
@@ -192,12 +191,14 @@ card_messages = {
             "I hope you’ll welcome this new format of sending cards. While I still cherish the personal, customized touch of a hand-written card (either of the “post” variety, or of the standard, prefixless sort), I’m hoping this method allows for more breathing room to type all the things that really matter.",
         },
         {
-          element_type: "p", content: "The word \"sock\" has one syllable",
+          element_type: "p",
+          content: 'The word "sock" has one syllable',
         },
         {
-          element_type: "p", content: "Finally, please send my best to O (the cat). I forgot to include him in the letter / name list in the card itself.",
+          element_type: "p",
+          content:
+            "Finally, please send my best to O (the cat). I forgot to include him in the letter / name list in the card itself.",
         },
-
       ],
       "letter-footer": [
         { element_type: "p", content: "Best," },
@@ -209,8 +210,26 @@ card_messages = {
     date: "March 27th, 2025",
     content: {
       "letter-body": [
-        { element_type: "p", content: "Dearest R" },
-        { element_type: "p", content: "018" },
+        { element_type: "p", content: "Dearest R," },
+        {
+          element_type: "p",
+          content: "I hope you're doing well in your new place.",
+        },
+        {
+          element_type: "p",
+          content:
+            "Hopefully you got this far in accessing the super secret writings of your card. While this system has less literal hand-writing, it allows for me to pour out my thoughts and feelings without limitation.",
+        },
+        {
+          element_type: "p",
+          content:
+            "Whelp",
+        },
+        {
+          element_type: "p",
+          content:
+            "All the best. Looking forward to seeing you soon, especially those Lärabars you may have taken from work.",
+        },
       ],
       "letter-footer": [
         { element_type: "p", content: "Best," },
