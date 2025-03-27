@@ -116,7 +116,7 @@ html, body {
 
 .letter-container {
   max-width: 800px;
-  height: 80vh; /* Set a fixed height */
+  height: 90%; /*  Set a fixed height */
   margin: 0 auto;
   padding: 2em;
   border: 1px solid #ccc;

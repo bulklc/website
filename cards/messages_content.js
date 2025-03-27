@@ -186,6 +186,18 @@ card_messages = {
       "letter-body": [
         { element_type: "p", content: "Dearest D and A," },
         { element_type: "p", content: "I hope you both doing quite well." },
+        {
+          element_type: "p",
+          content:
+            "I hope you’ll welcome this new format of sending cards. While I still cherish the personal, customized touch of a hand-written card (either of the “post” variety, or of the standard, prefixless sort), I’m hoping this method allows for more breathing room to type all the things that really matter.",
+        },
+        {
+          element_type: "p", content: "The word \"sock\" has one syllable",
+        },
+        {
+          element_type: "p", content: "Finally, please send my best to O (the cat). I forgot to include him in the letter / name list in the card itself.",
+        },
+
       ],
       "letter-footer": [
         { element_type: "p", content: "Best," },
@@ -198,7 +210,7 @@ card_messages = {
     content: {
       "letter-body": [
         { element_type: "p", content: "Dearest R" },
-        { element_type: "p", content: "aaa" },
+        { element_type: "p", content: "Happy new year!" },
       ],
       "letter-footer": [
         { element_type: "p", content: "Best," },

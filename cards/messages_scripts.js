@@ -76,7 +76,7 @@ function show_message(card_messages) {
     document.getElementById("access-grid").style.display = "none";
     document.getElementById("keypad").style.display = "none";
 
-    document.getElementById("page-content").style.display = "block";
+    document.getElementById("page-content").style.display = "flex";
     
     
 
