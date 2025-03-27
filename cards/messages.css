@@ -117,7 +117,7 @@ html, body {
 
 .letter-container {
   max-width: 800px;
-  height: calc(100vh - 8em); /* Full viewport height minus 2em padding on top and bottom */
+  height: calc(100vh - 10em);
   margin: 0 auto;
   padding: 2em;
   border: 1px solid #ccc;
