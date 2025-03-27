@@ -180,4 +180,30 @@ card_messages = {
       ],
     },
   },
+  "0005": {
+    date: "March 26th, 2025",
+    content: {
+      "letter-body": [
+        { element_type: "p", content: "Dearest D and A," },
+        { element_type: "p", content: "I hope you both doing quite well." },
+      ],
+      "letter-footer": [
+        { element_type: "p", content: "Best," },
+        { element_type: "p", content: "Chris BL" },
+      ],
+    },
+  },
+  "0006": {
+    date: "March 27th, 2025",
+    content: {
+      "letter-body": [
+        { element_type: "p", content: "Dearest R" },
+        { element_type: "p", content: "aaa" },
+      ],
+      "letter-footer": [
+        { element_type: "p", content: "Best," },
+        { element_type: "p", content: "Chris BL" },
+      ],
+    },
+  },
 };

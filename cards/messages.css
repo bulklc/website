@@ -99,17 +99,24 @@ html, body {
   background-color: #cdae52;
 }
 
-/* Responsive design for mobile devices */
+/* Responsive design for mobile devices 
 @media (max-height: 600px) {
   .letter-container {
-    height: 80%; /* Set a fixed height */
+    height: 80%;
   }
+} */
+ 
+#page-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  min-height: -webkit-fill-available; /* Ensure full height on iOS */
 }
-
 
 .letter-container {
   max-width: 800px;
-  height: 70vh; /* Set a fixed height */
+  height: 80vh; /* Set a fixed height */
   margin: 0 auto;
   padding: 2em;
   border: 1px solid #ccc;
