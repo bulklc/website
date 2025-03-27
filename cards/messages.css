@@ -108,14 +108,11 @@ html, body {
  
 #page-content {
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  height: 100vh; /* Full viewport height */
-  min-height: -webkit-fill-available; /* Ensure full height on iOS */
-  width: 100%; /* Full width */
-  overflow: hidden; /* Prevent scrolling */
-  box-sizing: border-box; /* Include padding and borders in size */
-  padding: 1em; /* Optional: Add some padding */
+  justify-content: flex-start;
+  align-items: center;
+  height: 90vh; /* Full viewport height */
+  min-height: -webkit-fill-available; /*  Ensure full height on iOS */
+  padding-top: 2em; /* Optional: Add some spacing from the top */
 }
 
 
