@@ -95,11 +95,50 @@ card_messages = {
           content:
             "I hope you’ll welcome this new format of sending cards. While I still cherish the personal, customized touch of a hand-written card (either of the “post” variety, or of the standard, prefixless sort), I’m hoping this method allows for more breathing room to type all the things that really matter.",
         },
-        { element_type: "p", content: "Peru spelled backwards is almost Europe. Kind of." },
+        {
+          element_type: "p",
+          content: "Peru spelled backwards is almost Europe. Kind of.",
+        },
+        {
+          element_type: "p",
+          content: "Is F getting her Avocados? Please tell me she is.",
+        },
+      ],
+      "letter-footer": [
+        { element_type: "p", content: "Best," },
+        { element_type: "p", content: "Chris BL" },
+      ],
+    },
+  },
+  "0003": {
+    date: "March 26th, 2025",
+    content: {
+      "letter-body": [
+        { element_type: "p", content: "Dearest K, J, A and R," },
         {
           element_type: "p",
           content:
-            "Is F getting her Avocados? Please tell me she is.",
+            "I hope this card finds you well. I’ll admit there’s a small but decent chance I’ve already sent you this card. I get my money’s worth out of the Japanese Tea Garden, and they only have so many variety of cards.",
+        },
+        {
+          element_type: "p",
+          content:
+            "I hope you’ll welcome this new format of sending cards. While I still cherish the personal, customized touch of a hand-written card (either of the “post” variety, or of the standard, prefixless sort), I’m hoping this method allows for more breathing room to say all the things that matter most.",
+        },
+        {
+          element_type: "p",
+          content:
+            "K, I hope your face is feeling at least a little bit better.",
+        },
+        {
+          element_type: "p",
+          content:
+            "J, there's a Birdstrike Alumni Show on April 18th. See ya there. Please try and not hog the stage so much this time. Remember, improv is a collaborative art form.",
+        },
+        {
+          element_type: "p",
+          content:
+            "A, I hope the blueberries in your life are plentiful in quantity, size, and deciciousness. Furthermore, I hope your poops are as azure as a sapphire on Neptune.",
         },
       ],
       "letter-footer": [
