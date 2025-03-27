@@ -106,19 +106,30 @@ html, body {
   }
 } */
  
-#page-content {
+/* #page-content {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Full viewport height */
-  min-height: -webkit-fill-available; /*  Ensure full height on iOS */
-}
+  height: 100vh; 
+  min-height: -webkit-fill-available; 
+} */
 
+
+#page-content {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: flex-start; /* Align to the top */
+  height: 100vh; /* Full viewport height */
+  min-height: -webkit-fill-available; /* Ensure full height on iOS */
+  width: 100%; /* Full width */
+  box-sizing: border-box; /* Include padding and borders in size */
+  /*  padding-top: 1em; Optional: Add some spacing from the top */
+}
 
 .letter-container {
   /* max-width: 800px; */
   height: 100%; /* calc(100vh - 10em); */
-  max-height: 70vh;
+  max-height: 100vh;
   margin: 0 auto;
   padding: 2em;
   border: 1px solid #ccc;
