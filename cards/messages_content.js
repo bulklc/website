@@ -80,4 +80,32 @@ card_messages = {
       ],
     },
   },
+  "0002": {
+    date: "March 26th, 2025",
+    content: {
+      "letter-body": [
+        { element_type: "p", content: "Dearest P, L and F," },
+        {
+          element_type: "p",
+          content:
+            "I hope this card finds you well. I’ll admit there’s a small but decent chance I’ve already sent you this card. I get my money’s worth out of the Japanese Tea Garden, and they only have so many variety of cards.",
+        },
+        {
+          element_type: "p",
+          content:
+            "I hope you’ll welcome this new format of sending cards. While I still cherish the personal, customized touch of a hand-written card (either of the “post” variety, or of the standard, prefixless sort), I’m hoping this method allows for more breathing room to type all the things that really matter.",
+        },
+        { element_type: "p", content: "Peru spelled backwards is almost Europe. Kind of." },
+        {
+          element_type: "p",
+          content:
+            "Is F getting her Avocados? Please tell me she is.",
+        },
+      ],
+      "letter-footer": [
+        { element_type: "p", content: "Best," },
+        { element_type: "p", content: "Chris BL" },
+      ],
+    },
+  },
 };
