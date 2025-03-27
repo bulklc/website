@@ -111,10 +111,12 @@ function show_message(card_messages) {
       const elementNode = document.createElement(element.element_type);
       elementNode.innerHTML = element.content;
       document.getElementById("letter-footer").appendChild(elementNode);
+
     });
   } else {
     alert(
       "Sorry, no message was found under this four digit code. Please check and try again."
     );
   }
+
 }

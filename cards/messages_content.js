@@ -46,4 +46,38 @@ card_messages = {
       ],
     },
   },
+
+  "0001": {
+    date: "March 26th, 2025",
+    content: {
+      "letter-body": [
+        { element_type: "p", content: "Dearest A and T," },
+        {
+          element_type: "p",
+          content:
+            "How is Mexico City? Were you really there? Your latest post card casts so much doubt on the subject. Regardless, if you’re story is true, I hope it’s a tale of joy and adventure.",
+        },
+        {
+          element_type: "p",
+          content:
+            "Furthermore, I hope you’ll welcome this new format of sending cards. While I still cherish the personal, customized touch of a hand-written card (either of the “post” variety, or of the standard, prefixless sort), I’m hoping this method allows for more breathing room to type all the things that really matter.",
+        },
+        { element_type: "p", content: "Meatloaf." },
+        {
+          element_type: "p",
+          content:
+            "Regarding Shoveldove, I should admit that I have formally placed it on a long-term pause, perhaps a permanent one (a permanent pause). While I’m a little bummed to admit this, my motivation to keep the project has declined; I took a new job last year with SFPUC (another branch of the City Government). In this new role, I’m no longer doing Construction Management, which was the primary industry for which that App idea was intended. I am, however, doing water pipe stuff, and am working on a full-stack application to support all the stuff my branch does. I’ll let you know if anything interesting comes of it.",
+        },
+        {
+          element_type: "p",
+          content:
+            "Lastly, I realize I never send my deepest appreciation to you and Taylor for having me at your wedding. I really do appreciate the invite, and I sincerely had a wonderful time. While the time spent talking with your (Andrew’s) father truly made my night, the amazing food, music and scenery of the reception provided abundant icing on the gâteau.",
+        },
+      ],
+      "letter-footer": [
+        { element_type: "p", content: "Best," },
+        { element_type: "p", content: "Chris BL" },
+      ],
+    },
+  },
 };
