@@ -223,12 +223,17 @@ card_messages = {
         {
           element_type: "p",
           content:
-            "Whelp",
+            "Whelp.",
         },
         {
           element_type: "p",
           content:
-            "All the best. Looking forward to seeing you soon, especially those Lärabars you may have taken from work.",
+            "Hmm.",
+        },
+        {
+          element_type: "p",
+          content:
+            "I guess I'll leave it at that. Looking forward to seeing you soon, especially those Lärabars you may have taken from work.",
         },
       ],
       "letter-footer": [
