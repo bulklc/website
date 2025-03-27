@@ -108,10 +108,11 @@ html, body {
  
 #page-content {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  height: 100vh; /* Full viewport height */
+  height: 90vh; /* Full viewport height */
   min-height: -webkit-fill-available; /*  Ensure full height on iOS */
+  padding-top: 2em; /* Optional: Add some spacing from the top */
 }
 
 
