@@ -111,7 +111,8 @@ html, body {
   justify-content: center;
   align-items: center;
   height: 100vh; /* Full viewport height */
-  min-height: -webkit-fill-available; /* Ensure full height on iOS */
+  min-height: 500px;
+  /* min-height: -webkit-fill-available;  Ensure full height on iOS */
 }
 
 .letter-container {
