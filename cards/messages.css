@@ -111,13 +111,13 @@ html, body {
   justify-content: center;
   align-items: center;
   height: 100vh; /* Full viewport height */
-  min-height: 500px;
-  /* min-height: -webkit-fill-available;  Ensure full height on iOS */
+  min-height: -webkit-fill-available; /*  Ensure full height on iOS */
 }
+
 
 .letter-container {
   max-width: 800px;
-  height: 90%; /*  Set a fixed height */
+  height: calc(100vh - 8em); /* Full viewport height minus 2em padding on top and bottom */
   margin: 0 auto;
   padding: 2em;
   border: 1px solid #ccc;
@@ -125,7 +125,20 @@ html, body {
   background-color: #f9f9f9;
   overflow-y: auto; /* Enable vertical scrolling */
   position: relative; /* Ensure the container stays stationary */
+  box-sizing: border-box; /* Include padding in height calculation */
 }
+
+/* .letter-container {
+  max-width: 800px;
+  height: 90%;  
+  margin: 0 auto;
+  padding: 2em;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  overflow-y: auto;
+  position: relative; 
+} */
 
 .letter-header,
 .letter-body,
