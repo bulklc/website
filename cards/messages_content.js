@@ -210,7 +210,7 @@ card_messages = {
     content: {
       "letter-body": [
         { element_type: "p", content: "Dearest R" },
-        { element_type: "p", content: "017" },
+        { element_type: "p", content: "018" },
       ],
       "letter-footer": [
         { element_type: "p", content: "Best," },

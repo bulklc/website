@@ -129,7 +129,7 @@ html, body {
 .letter-container {
   /* max-width: 800px; */
   height: 100%; /* calc(100vh - 10em); */
-  max-height: 80vh;
+  max-height: 75vh;
   margin: 0 auto;
   padding: 2em;
   border: 1px solid #ccc;
