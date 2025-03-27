@@ -147,4 +147,37 @@ card_messages = {
       ],
     },
   },
+  "0004": {
+    date: "March 26th, 2025",
+    content: {
+      "letter-body": [
+        { element_type: "p", content: "Dearest D, A, LD, and E" },
+        {
+          element_type: "p",
+          content:
+            "I hope you're all doing well. Did I spell E's name correctly? I'm pretty sure I did.",
+        },
+        {
+          element_type: "p",
+          content:
+            "I hope you’ll welcome this new format of sending cards. While I still cherish the personal, customized touch of a hand-written card (either of the “post” variety, or of the standard, prefixless sort), I’m hoping this method allows for more breathing room to type all the things that really matter.",
+        },
+        {
+          element_type: "p",
+          content:
+            "Please pay no attention to the fact that I'm saying fewer words heare than I would have been able to fit in hand-writing on the card itself. This whole thing is a work in progress.",
+        },
+        {
+          element_type: "p",
+          content:
+            "Lastly, I hope you enjoy these flowers. I got this card at the De Young. Speaking of, when can I get soe more free tix?",
+        },
+
+      ],
+      "letter-footer": [
+        { element_type: "p", content: "Best," },
+        { element_type: "p", content: "Chris BL" },
+      ],
+    },
+  },
 };
