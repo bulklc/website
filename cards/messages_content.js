@@ -170,7 +170,7 @@ card_messages = {
         {
           element_type: "p",
           content:
-            "Lastly, I hope you enjoy these flowers. I got this card at the De Young. Speaking of, when can I get soe more free tix?",
+            "Lastly, I hope you enjoy these flowers. I got this card at the De Young. Speaking of, when can I get some more free tix?",
         },
       ],
       "letter-footer": [
