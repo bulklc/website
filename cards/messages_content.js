@@ -276,7 +276,7 @@ card_messages = {
         },
         {
           element_type: "p",
-          content: "Also, in a world of Pokemon Red and Blue, where did yellow fit in? Was that a sequal?",
+          content: "Also, in a world of Pokemon Red and Blue, where did Yellow fit in? Was that a sequel?",
         },
         {
           element_type: "p",
@@ -300,11 +300,15 @@ card_messages = {
         },
         {
           element_type: "p",
+          content: "Also, thanks for all the gym / fitness encouragement. As we discussed, I'm done with the gym near my work, but I'm strongly considering one near my place, which I could go to during lunch when I telecommute.",
+        },
+        {
+          element_type: "p",
           content: "Please send my best to Cricket.",
         },
       ],
       "letter-footer": [
-        { element_type: "p", content: "See ya soon," },
+        { element_type: "p", content: "Regards," },
         { element_type: "p", content: "Chris BL" },
       ],
     },
@@ -340,7 +344,7 @@ card_messages = {
         },
         {
           element_type: "p",
-          content: "Were all crushed you couldn't make it out to Liam day. But so is life. ",
+          content: "We're all crushed you couldn't make it out to Liam day. But so is life. ",
         },
         {
           element_type: "p",
