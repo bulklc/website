@@ -46,7 +46,6 @@ card_messages = {
       ],
     },
   },
-
   "0001": {
     date: "March 26th, 2025",
     content: {
@@ -238,6 +237,123 @@ card_messages = {
       ],
       "letter-footer": [
         { element_type: "p", content: "Best," },
+        { element_type: "p", content: "Chris BL" },
+      ],
+    },
+  },
+  "0007": {
+    date: "March 30th, 2025",
+    content: {
+      "letter-body": [
+        { element_type: "p", content: "Dearest A," },
+        {
+          element_type: "p",
+          content: "I'd like to express my deepest appreciation for the lovely beanie. It has kept my tender ears as warm as a fresh piece of toast on a Saturday morning, straight out of the... toaster.",
+        },
+        {
+          element_type: "p",
+          content: "Sometimes I wonder if I look too good in the beanie, almost as if I put all other beanie users to shame. I guess that's their problem, not mine.",
+        },
+        {
+          element_type: "p",
+          content: "Let me know next time you're around the bay. If such a time never comes, I suppose we'll just have to wait for another PCV wedding to catch up.",
+        },
+      ],
+      "letter-footer": [
+        { element_type: "p", content: "Best," },
+        { element_type: "p", content: "Chris BL" },
+      ],
+    },
+  },
+  "0008": {
+    date: "March 30th, 2025",
+    content: {
+      "letter-body": [
+        { element_type: "p", content: "Dearest A," },
+        {
+          element_type: "p",
+          content: "Did you see what I did there, with the name to which this card was addressed? Can I have my first Pokemon now?",
+        },
+        {
+          element_type: "p",
+          content: "Also, in a world of Pokemon Red and Blue, where did yellow fit in? Was that a sequal?",
+        },
+        {
+          element_type: "p",
+          content: "One day we'll whatch Blade Runner together. It's well documented which cut is the best.",
+        },
+      ],
+      "letter-footer": [
+        { element_type: "p", content: "See ya soon," },
+        { element_type: "p", content: "Chris BL" },
+      ],
+    },
+  },
+  "0009": {
+    date: "March 30th, 2025",
+    content: {
+      "letter-body": [
+        { element_type: "p", content: "Dearest T, L, M and A," },
+        {
+          element_type: "p",
+          content: "I hope this (weird) card finds you well. Has M stumbled upon any other furry gatherings in the park lately?",
+        },
+        {
+          element_type: "p",
+          content: "Please send my best to Cricket.",
+        },
+      ],
+      "letter-footer": [
+        { element_type: "p", content: "See ya soon," },
+        { element_type: "p", content: "Chris BL" },
+      ],
+    },
+  },
+  "0010": {
+    date: "March 30th, 2025",
+    content: {
+      "letter-body": [
+        { element_type: "p", content: "Dearest B, J and L," },
+        {
+          element_type: "p",
+          content: "I hope things are going well. Has your backyard been blanketed in fruit yet this year? Now that I bring that up, I recall you were considering some significant changes to the backyard in general. Hope that project is going well.",
+        },
+        {
+          element_type: "p",
+          content: "Well, I'll catch you at the next friend gathering. Happy Easter!",
+        },
+      ],
+      "letter-footer": [
+        { element_type: "p", content: "See ya soon," },
+        { element_type: "p", content: "Chris BL" },
+      ],
+    },
+  },
+  "0011": {
+    date: "March 30th, 2025",
+    content: {
+      "letter-body": [
+        { element_type: "p", content: "Dearest J and E," },
+        {
+          element_type: "p",
+          content: "Hope you're all doing well. Happy Lent!",
+        },
+        {
+          element_type: "p",
+          content: "Were all crushed you couldn't make it out to Liam day. But so is life. ",
+        },
+        {
+          element_type: "p",
+          content: "Also, I hope you like this card. I got it at the De Young Museum, their gift shop has a selection of post cards which any rational adult would refer to as \"sick af.\". The QR code thing is something new I'm trying to expand the card's content. I hope you like it.",
+        },
+        {
+          element_type: "p",
+          content: "When you all commin back to the Bay? J, don't forget your roots.",
+        },
+
+      ],
+      "letter-footer": [
+        { element_type: "p", content: "See ya soon," },
         { element_type: "p", content: "Chris BL" },
       ],
     },
