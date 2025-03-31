@@ -358,4 +358,32 @@ card_messages = {
       ],
     },
   },
+  "0012": {
+    date: "March 30th, 2025",
+    content: {
+      "letter-body": [
+        { element_type: "p", content: "Dearest B," },
+        {
+          element_type: "p",
+          content: "I hope life in CM is treating you well enough.",
+        },
+        {
+          element_type: "p",
+          content: "I'm trying out this new QR code thing so that a) I can send post cards but b) I can write out more thoughts and feelings that I'd be able to write out on a single card.",
+        },
+        {
+          element_type: "p",
+          content: "Of course, I that means there's a lost personal touch of the hand-written note, seeing as how it just links you back to some kind of digital content. Regardless, it seemed like a fun idea.",
+        },
+        {
+          element_type: "p",
+          content: "Hope Law School's goin well. Send my best to T.",
+        },
+      ],
+      "letter-footer": [
+        { element_type: "p", content: "Regards," },
+        { element_type: "p", content: "Chris BL" },
+      ],
+    },
+  },
 };
