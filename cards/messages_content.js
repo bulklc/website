@@ -390,4 +390,52 @@ card_messages = {
       ],
     },
   },
+  "0041": {
+    date: "April 2nd, 2025",
+    content: {
+      "letter-body": [
+        { element_type: "p", content: "Dearest N," },
+        {
+          element_type: "p",
+          content: "Thanks again for yet another lovely evening. I had a splendid time.",
+        },
+        {
+          element_type: "p",
+          content: "Alas, I have still yet to send you a post card (that’s more of a third date kinda thing), but I wanted to share a note of appreciation regardless. Hopefully this stamped index card will do for now.",
+        },
+        {
+          element_type: "p",
+          content: "I’m excited that we were able to have middle eastern food just after you finished the Hunger Games series. This means your recent past has been full of P__ta, where \"__\" is filled with either with two ee’s or one i.",
+        },
+        {
+          element_type: "p",
+          content: "I hope Dia didn’t miss you too much while you were gone. And secondly, I hope I get to see you again sometime soon. As president Snow once told us,",
+        },
+        {
+          element_type: "blockquote",
+          content: "\"Hope... It is the only thing stronger than fear.\"",
+        },
+        {
+          element_type: "p",
+          content: "Maybe we can try some vietnamese? As Peeta Mellark once said,",
+        },
+        {
+          element_type: "blockquote",
+          content: "\"I don't want them to change me in there. Turn me into some kind of monster that I'm not.\"",
+        },
+        {
+          element_type: "p",
+          content: "I’ll admit I’m not sure what to do with that second quote. But it’s there. And there’s no going back. Everyone knows there’s no way to change stuff on the internet.",
+        },
+      ],
+      "letter-footer": [
+        { element_type: "p", content: "Hearts," },
+        { element_type: "p", content: "Chris BL" },
+      ],
+    },
+  },
 };
+
+
+
+
