@@ -390,6 +390,34 @@ card_messages = {
       ],
     },
   },
+  "0013": {
+    date: "April 2nd, 2025",
+    content: {
+      "letter-body": [
+        { element_type: "p", content: "Dearest P," },
+        {
+          element_type: "p",
+          content: "I write to fomrally confirm receipt of your postgage card addressed from Scottsdale. Thanks as always.",
+        },
+        {
+          element_type: "p",
+          content: "I do regret the failing grade garnered by the chair. In which ways was it deficient?",
+        },
+        {
+          element_type: "p",
+          content: "Perhaps the color? The upholstery? Maybe it didn't smell enough like cinnamon?",
+        },
+        {
+          element_type: "p",
+          content: "Perhaps <em>too much</em> like cinnamon?",
+        },
+      ],
+      "letter-footer": [
+        { element_type: "p", content: "Regards," },
+        { element_type: "p", content: "Chris BL" },
+      ],
+    },
+  },
   "0041": {
     date: "April 2nd, 2025",
     content: {
