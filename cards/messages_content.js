@@ -70,7 +70,7 @@ card_messages = {
         {
           element_type: "p",
           content:
-            "Lastly, I realize I never send my deepest appreciation to you and Taylor for having me at your wedding. I really do appreciate the invite, and I sincerely had a wonderful time. While the time spent talking with your (Andrew’s) father truly made my night, the amazing food, music and scenery of the reception provided abundant icing on the gâteau.",
+            "Lastly, I realize I never send my deepest appreciation to you and T for having me at your wedding. I really do appreciate the invite, and I sincerely had a wonderful time. While the time spent talking with your (A’s) father truly made my night, the amazing food, music and scenery of the reception provided abundant icing on the gâteau.",
         },
       ],
       "letter-footer": [
