@@ -418,6 +418,30 @@ card_messages = {
       ],
     },
   },
+  "0014": {
+    date: "April 9th, 2025",
+    content: {
+      "letter-body": [
+        { element_type: "p", content: "Dearest E," },
+        {
+          element_type: "p",
+          content: "I hope your new home in NY is treating you well.",
+        },
+        {
+          element_type: "p",
+          content: "I think you're gonna have a great time at UCB. They seem to strike a good balance between supporting students' growth as performers, but also just having fun in general.",
+        },
+        {
+          element_type: "p",
+          content: "Please be sure to perform as a sexy flamingo at least once per show. Or was it a Swan? I forget the exact species of bird, but your avian portrayal was an inspiration regardless.",
+        },
+      ],
+      "letter-footer": [
+        { element_type: "p", content: "Best," },
+        { element_type: "p", content: "Chris BL" },
+      ],
+    },
+  },
   "0041": {
     date: "April 2nd, 2025",
     content: {
