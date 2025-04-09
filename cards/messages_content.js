@@ -466,6 +466,30 @@ card_messages = {
       ],
     },
   },
+  "0016": {
+    date: "April 9th, 2025",
+    content: {
+      "letter-body": [
+        { element_type: "p", content: "Dearest R," },
+        {
+          element_type: "p",
+          content: "I hope this card finds you well, and that the students are treating you okay.",
+        },
+        {
+          element_type: "p",
+          content: "It was a pleasure hanging out recently in Vegas. Hopefully we've all recovered.",
+        },
+        {
+          element_type: "p",
+          content: "Let me know if / when you find a new residence. I'm sure it'll smell like delicious food in no time.",
+        },
+      ],
+      "letter-footer": [
+        { element_type: "p", content: "Best," },
+        { element_type: "p", content: "Chris BL" },
+      ],
+    },
+  },
   "0025": {
     date: "April 9th, 2025",
     content: {
