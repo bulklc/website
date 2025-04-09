@@ -442,6 +442,58 @@ card_messages = {
       ],
     },
   },
+  "0015": {
+    date: "April 9th, 2025",
+    content: {
+      "letter-body": [
+        { element_type: "p", content: "Dearest E and J," },
+        {
+          element_type: "p",
+          content: "I hope Chicago received you both well following our recent sojourn in Vegas.",
+        },
+        {
+          element_type: "p",
+          content: "Also, please accept my deepest appreciation for my beloved coaster. Finally, I am able combine my love for street-surface utility coverings with my enduring quest to protect the top varnish of all furniture I occupy with my condensate-laden drink containers. ",
+        },
+        {
+          element_type: "p",
+          content: "May your health, joy and comfort be abundant, and may your centipedes be few.",
+        },
+      ],
+      "letter-footer": [
+        { element_type: "p", content: "Best," },
+        { element_type: "p", content: "Chris BL" },
+      ],
+    },
+  },
+  "0025": {
+    date: "April 9th, 2025",
+    content: {
+      "letter-body": [
+        { element_type: "p", content: "Dearest K, B and E," },
+        {
+          element_type: "p",
+          content: "I’d like to send my warmest appreciation for your having me at your recent wedding festivities. I had a lovely time catching up with K and B, and getting to meet E.",
+        },
+        {
+          element_type: "p",
+          content: "K, I hope you’re new job treats you well, and that the cake pops in your life are ever-abundant.",
+        },
+        {
+          element_type: "p",
+          content: "B, it was a pleasure catching up with you and meeting your family. They bestowed upon me an understanding of Blackjack, which, without them, I’d be regrettably deprived.",
+        },
+        {
+          element_type: "p",
+          content: "E, I hope your cookie / brownie presentation goes / went well. I’m sure the ancient masters of rhetoric will be stirring in their (Greek?) graves with post-mortal joy.",
+        },
+      ],
+      "letter-footer": [
+        { element_type: "p", content: "Best," },
+        { element_type: "p", content: "Chris BL" },
+      ],
+    },
+  },
   "0041": {
     date: "April 2nd, 2025",
     content: {
