@@ -62,26 +62,6 @@ function forward() {
   highlightCurrentInput();
 }
 
-// function createList(content) {
-//   const listNode = document.createElement("ul");
-//   content.forEach((item) => {
-//     const listItemNode = document.createElement("li");
-//     if (typeof item === "object" && item.element_type === "ul") {
-//       // Recursively create nested lists
-//       const nestedList = createList(item.content);
-//       listItemNode.appendChild(nestedList);
-//     } else {
-//       if (typeof item === "string") {
-//         listItemNode.innerHTML = item;
-//       } else {
-//         listItemNode.innerHTML = item.content;
-//       }
-//     }
-//     listNode.appendChild(listItemNode);
-//   });
-//   return listNode;
-// }
-
 function createList(content) {
   const listNode = document.createElement("ul");
   content.forEach((item) => {
