@@ -221,13 +221,11 @@ card_messages = {
         },
         {
           element_type: "p",
-          content:
-            "Whelp.",
+          content: "Whelp.",
         },
         {
           element_type: "p",
-          content:
-            "Hmm.",
+          content: "Hmm.",
         },
         {
           element_type: "p",
@@ -248,15 +246,18 @@ card_messages = {
         { element_type: "p", content: "Dearest A," },
         {
           element_type: "p",
-          content: "I'd like to express my deepest appreciation for the lovely beanie. It has kept my tender ears as warm as a fresh piece of toast on a Saturday morning, straight out of the... toaster.",
+          content:
+            "I'd like to express my deepest appreciation for the lovely beanie. It has kept my tender ears as warm as a fresh piece of toast on a Saturday morning, straight out of the... toaster.",
         },
         {
           element_type: "p",
-          content: "Sometimes I wonder if I look too good in the beanie, almost as if I put all other beanie users to shame. I guess that's their problem, not mine.",
+          content:
+            "Sometimes I wonder if I look too good in the beanie, almost as if I put all other beanie users to shame. I guess that's their problem, not mine.",
         },
         {
           element_type: "p",
-          content: "Let me know next time you're around the bay. If such a time never comes, I suppose we'll just have to wait for another PCV wedding to catch up.",
+          content:
+            "Let me know next time you're around the bay. If such a time never comes, I suppose we'll just have to wait for another PCV wedding to catch up.",
         },
       ],
       "letter-footer": [
@@ -272,15 +273,18 @@ card_messages = {
         { element_type: "p", content: "Dearest A," },
         {
           element_type: "p",
-          content: "Did you see what I did there, with the name to which this card was addressed? Can I have my first Pokemon now?",
+          content:
+            "Did you see what I did there, with the name to which this card was addressed? Can I have my first Pokemon now?",
         },
         {
           element_type: "p",
-          content: "Also, in a world of Pokemon Red and Blue, where did Yellow fit in? Was that a sequel?",
+          content:
+            "Also, in a world of Pokemon Red and Blue, where did Yellow fit in? Was that a sequel?",
         },
         {
           element_type: "p",
-          content: "One day we'll whatch Blade Runner together. It's well documented which cut is the best.",
+          content:
+            "One day we'll whatch Blade Runner together. It's well documented which cut is the best.",
         },
       ],
       "letter-footer": [
@@ -296,11 +300,13 @@ card_messages = {
         { element_type: "p", content: "Dearest T, L, M and A," },
         {
           element_type: "p",
-          content: "I hope this (weird) card finds you well. Has M stumbled upon any other furry gatherings in the park lately?",
+          content:
+            "I hope this (weird) card finds you well. Has M stumbled upon any other furry gatherings in the park lately?",
         },
         {
           element_type: "p",
-          content: "Also, thanks for all the gym / fitness encouragement. As we discussed, I'm done with the gym near my work, but I'm strongly considering one near my place, which I could go to during lunch when I telecommute.",
+          content:
+            "Also, thanks for all the gym / fitness encouragement. As we discussed, I'm done with the gym near my work, but I'm strongly considering one near my place, which I could go to during lunch when I telecommute.",
         },
         {
           element_type: "p",
@@ -320,11 +326,13 @@ card_messages = {
         { element_type: "p", content: "Dearest B, J and L," },
         {
           element_type: "p",
-          content: "I hope things are going well. Has your backyard been blanketed in fruit yet this year? Now that I bring that up, I recall you were considering some significant changes to the backyard in general. Hope that project is going well.",
+          content:
+            "I hope things are going well. Has your backyard been blanketed in fruit yet this year? Now that I bring that up, I recall you were considering some significant changes to the backyard in general. Hope that project is going well.",
         },
         {
           element_type: "p",
-          content: "Well, I'll catch you at the next friend gathering. Happy Easter!",
+          content:
+            "Well, I'll catch you at the next friend gathering. Happy Easter!",
         },
       ],
       "letter-footer": [
@@ -344,17 +352,19 @@ card_messages = {
         },
         {
           element_type: "p",
-          content: "We're all crushed you couldn't make it out to Liam day. But so is life. ",
+          content:
+            "We're all crushed you couldn't make it out to Liam day. But so is life. ",
         },
         {
           element_type: "p",
-          content: "Also, I hope you like this card. I got it at the De Young Museum, their gift shop has a selection of post cards which any rational adult would refer to as \"sick af.\". The QR code thing is something new I'm trying to expand the card's content. I hope you like it.",
+          content:
+            "Also, I hope you like this card. I got it at the De Young Museum, their gift shop has a selection of post cards which any rational adult would refer to as \"sick af.\". The QR code thing is something new I'm trying to expand the card's content. I hope you like it.",
         },
         {
           element_type: "p",
-          content: "When you all commin back to the Bay? J, don't forget your roots.",
+          content:
+            "When you all commin back to the Bay? J, don't forget your roots.",
         },
-
       ],
       "letter-footer": [
         { element_type: "p", content: "See ya soon," },
@@ -373,11 +383,13 @@ card_messages = {
         },
         {
           element_type: "p",
-          content: "I'm trying out this new QR code thing so that a) I can send post cards but b) I can write out more thoughts and feelings that I'd be able to write out on a single card.",
+          content:
+            "I'm trying out this new QR code thing so that a) I can send post cards but b) I can write out more thoughts and feelings that I'd be able to write out on a single card.",
         },
         {
           element_type: "p",
-          content: "Of course, I that means there's a lost personal touch of the hand-written note, seeing as how it just links you back to some kind of digital content. Regardless, it seemed like a fun idea.",
+          content:
+            "Of course, I that means there's a lost personal touch of the hand-written note, seeing as how it just links you back to some kind of digital content. Regardless, it seemed like a fun idea.",
         },
         {
           element_type: "p",
@@ -397,15 +409,18 @@ card_messages = {
         { element_type: "p", content: "Dearest P," },
         {
           element_type: "p",
-          content: "I write to fomrally confirm receipt of your postgage card addressed from Scottsdale. Thanks as always.",
+          content:
+            "I write to fomrally confirm receipt of your postgage card addressed from Scottsdale. Thanks as always.",
         },
         {
           element_type: "p",
-          content: "I do regret the failing grade garnered by the chair. In which ways was it deficient?",
+          content:
+            "I do regret the failing grade garnered by the chair. In which ways was it deficient?",
         },
         {
           element_type: "p",
-          content: "Perhaps the color? The upholstery? Maybe it didn't smell enough like cinnamon?",
+          content:
+            "Perhaps the color? The upholstery? Maybe it didn't smell enough like cinnamon?",
         },
         {
           element_type: "p",
@@ -429,11 +444,13 @@ card_messages = {
         },
         {
           element_type: "p",
-          content: "I think you're gonna have a great time at UCB. They seem to strike a good balance between supporting students' growth as performers, but also just having fun in general.",
+          content:
+            "I think you're gonna have a great time at UCB. They seem to strike a good balance between supporting students' growth as performers, but also just having fun in general.",
         },
         {
           element_type: "p",
-          content: "Please be sure to perform as a sexy flamingo at least once per show. Or was it a Swan? I forget the exact species of bird, but your avian portrayal was an inspiration regardless.",
+          content:
+            "Please be sure to perform as a sexy flamingo at least once per show. Or was it a Swan? I forget the exact species of bird, but your avian portrayal was an inspiration regardless.",
         },
       ],
       "letter-footer": [
@@ -449,15 +466,18 @@ card_messages = {
         { element_type: "p", content: "Dearest E and J," },
         {
           element_type: "p",
-          content: "I hope Chicago received you both well following our recent sojourn in Vegas.",
+          content:
+            "I hope Chicago received you both well following our recent sojourn in Vegas.",
         },
         {
           element_type: "p",
-          content: "Also, please accept my deepest appreciation for my beloved coaster. Finally, I am able combine my love for street-surface utility coverings with my enduring quest to protect the top varnish of all furniture I occupy with my condensate-laden drink containers. ",
+          content:
+            "Also, please accept my deepest appreciation for my beloved coaster. Finally, I am able combine my love for street-surface utility coverings with my enduring quest to protect the top varnish of all furniture I occupy with my condensate-laden drink containers. ",
         },
         {
           element_type: "p",
-          content: "May your health, joy and comfort be abundant, and may your centipedes be few.",
+          content:
+            "May your health, joy and comfort be abundant, and may your centipedes be few.",
         },
       ],
       "letter-footer": [
@@ -473,15 +493,18 @@ card_messages = {
         { element_type: "p", content: "Dearest R," },
         {
           element_type: "p",
-          content: "I hope this card finds you well, and that the students are treating you okay.",
+          content:
+            "I hope this card finds you well, and that the students are treating you okay.",
         },
         {
           element_type: "p",
-          content: "It was a pleasure hanging out recently in Vegas. Hopefully we've all recovered.",
+          content:
+            "It was a pleasure hanging out recently in Vegas. Hopefully we've all recovered.",
         },
         {
           element_type: "p",
-          content: "Let me know if / when you find a new residence. I'm sure it'll smell like delicious food in no time.",
+          content:
+            "Let me know if / when you find a new residence. I'm sure it'll smell like delicious food in no time.",
         },
       ],
       "letter-footer": [
@@ -490,6 +513,46 @@ card_messages = {
       ],
     },
   },
+  "0021": {
+    date: "April 16th, 2025",
+    content: {
+      "letter-body": [
+        { element_type: "p", content: "Dearest H," },
+        {
+          element_type: "p",
+          content:
+            "Your latest card, with its origins in Texas, has filled my heart with warm, buttery joy.",
+        },
+        {
+          element_type: "p",
+          content:
+            "I hope your trip to the least texasy part of Texas was well spent. What exactly were you doing there? Trying all variety of barbecue? Taking down the patriarchy? Both?",
+        },
+        {
+          element_type: "p",
+          content: "To answer your questions:",
+        },
+        {
+          element_type: "ul",
+          content: [
+            "During my time in Austin, I felt no particular increase in my personal cowboy levels.<ul><li>My desire to rear and tend to cattle remained at a comfortable minimum (I prefer to let livestock live their own lives);</li><li>Any hats I wore remained at a strict 1.5 gallon max;</li><li>I tended to prefer to not ride off directly into the sunset;</li><ul><li>It’s a safety hazard to travel directly towards the sun as its brilliance obstructs (horse) driver visibility;</li><li>I usually planned my romantic, horse-mounted ride-offs to be angled at a comfortable 15° from a given reference line connecting point A (me) and point B (the sun). Let me know if you need an illustration.</li></ul></ul>",
+            "My enthusiasm for bats did undergo a small (but statistically-significant) bump during my time in Austin.<ul><li>However, this was not due to my observation of the local Chiroptera community;</li><li>Rather, it was due to my listening to a podcast about visually-impaired people who use echo-location to achieve “sight” despite their inability to \"see\" in the most traditional sense;</li><li>If you have time, feel free to check it out <a href=\"https://www.npr.org/2015/01/23/379134306/batman-pt-1\" target=\"_blank\">here</a>.</li></ul>",
+            "HEB is da bomb. Hands down. No further details needed."
+          ],
+        },
+        {
+          element_type: "p",
+          content:
+            "I hope life is treating you well back in Minnesota, and that your “come down” from your big Texas high was manageable. Perhaps you can take solace in the fact that I-35 connects both cities?",
+        },
+      ],
+      "letter-footer": [
+        { element_type: "p", content: "Best," },
+        { element_type: "p", content: "Chris BL" },
+      ],
+    },
+  },
+
   "0025": {
     date: "April 9th, 2025",
     content: {
@@ -497,19 +560,23 @@ card_messages = {
         { element_type: "p", content: "Dearest K, B and E," },
         {
           element_type: "p",
-          content: "I’d like to send my warmest appreciation for your having me at your recent wedding festivities. I had a lovely time catching up with K and B, and getting to meet E.",
+          content:
+            "I’d like to send my warmest appreciation for your having me at your recent wedding festivities. I had a lovely time catching up with K and B, and getting to meet E.",
         },
         {
           element_type: "p",
-          content: "K, I hope you’re new job treats you well, and that the cake pops in your life are ever-abundant.",
+          content:
+            "K, I hope you’re new job treats you well, and that the cake pops in your life are ever-abundant.",
         },
         {
           element_type: "p",
-          content: "B, it was a pleasure catching up with you and meeting your family. They bestowed upon me an understanding of Blackjack, which, without them, I’d be regrettably deprived.",
+          content:
+            "B, it was a pleasure catching up with you and meeting your family. They bestowed upon me an understanding of Blackjack, which, without them, I’d be regrettably deprived.",
         },
         {
           element_type: "p",
-          content: "E, I hope your cookie / brownie presentation goes / went well. I’m sure the ancient masters of rhetoric will be stirring in their (Greek?) graves with post-mortal joy.",
+          content:
+            "E, I hope your cookie / brownie presentation goes / went well. I’m sure the ancient masters of rhetoric will be stirring in their (Greek?) graves with post-mortal joy.",
         },
       ],
       "letter-footer": [
@@ -518,6 +585,7 @@ card_messages = {
       ],
     },
   },
+
   "0041": {
     date: "April 2nd, 2025",
     content: {
@@ -525,35 +593,42 @@ card_messages = {
         { element_type: "p", content: "Dearest N," },
         {
           element_type: "p",
-          content: "Thanks again for yet another lovely evening. I had a splendid time.",
+          content:
+            "Thanks again for yet another lovely evening. I had a splendid time.",
         },
         {
           element_type: "p",
-          content: "Alas, I have still yet to send you a post card (that’s more of a third date kinda thing), but I wanted to share a note of appreciation regardless. Hopefully this stamped index card will do for now.",
+          content:
+            "Alas, I have still yet to send you a post card (that’s more of a third date kinda thing), but I wanted to share a note of appreciation regardless. Hopefully this stamped index card will do for now.",
         },
         {
           element_type: "p",
-          content: "I’m excited that we were able to have middle eastern food just after you finished the Hunger Games series. This means your recent past has been full of P__ta, where \"__\" is filled with either with two ee’s or one i.",
+          content:
+            'I’m excited that we were able to have middle eastern food just after you finished the Hunger Games series. This means your recent past has been full of P__ta, where "__" is filled with either with two ee’s or one i.',
         },
         {
           element_type: "p",
-          content: "I hope Dia didn’t miss you too much while you were gone. And secondly, I hope I get to see you again sometime soon. As president Snow once told us,",
+          content:
+            "I hope Dia didn’t miss you too much while you were gone. And secondly, I hope I get to see you again sometime soon. As president Snow once told us,",
         },
         {
           element_type: "blockquote",
-          content: "\"Hope... It is the only thing stronger than fear.\"",
+          content: '"Hope... It is the only thing stronger than fear."',
         },
         {
           element_type: "p",
-          content: "Maybe we can try some vietnamese? As Peeta Mellark once said,",
+          content:
+            "Maybe we can try some vietnamese? As Peeta Mellark once said,",
         },
         {
           element_type: "blockquote",
-          content: "\"I don't want them to change me in there. Turn me into some kind of monster that I'm not.\"",
+          content:
+            "\"I don't want them to change me in there. Turn me into some kind of monster that I'm not.\"",
         },
         {
           element_type: "p",
-          content: "I’ll admit I’m not sure what to do with that second quote. But it’s there. And there’s no going back. Everyone knows there’s no way to change stuff on the internet.",
+          content:
+            "I’ll admit I’m not sure what to do with that second quote. But it’s there. And there’s no going back. Everyone knows there’s no way to change stuff on the internet.",
         },
       ],
       "letter-footer": [
@@ -563,7 +638,3 @@ card_messages = {
     },
   },
 };
-
-
-
-
