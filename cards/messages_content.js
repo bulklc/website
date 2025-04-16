@@ -410,7 +410,7 @@ card_messages = {
         {
           element_type: "p",
           content:
-            "I write to fomrally confirm receipt of your postgage card addressed from Scottsdale. Thanks as always.",
+            "I write to formally confirm receipt of your postgage card addressed from Scottsdale. Thanks as always.",
         },
         {
           element_type: "p",
@@ -535,15 +535,38 @@ card_messages = {
         {
           element_type: "ul",
           content: [
-            "During my time in Austin, I felt no particular increase in my personal cowboy levels.<ul><li>My desire to rear and tend to cattle remained at a comfortable minimum (I prefer to let livestock live their own lives);</li><li>Any hats I wore remained at a strict 1.5 gallon max;</li><li>I tended to prefer to not ride off directly into the sunset;</li><ul><li>It’s a safety hazard to travel directly towards the sun as its brilliance obstructs (horse) driver visibility;</li><li>I usually planned my romantic, horse-mounted ride-offs to be angled at a comfortable 15° from a given reference line connecting point A (me) and point B (the sun). Let me know if you need an illustration.</li></ul></ul>",
-            "My enthusiasm for bats did undergo a small (but statistically-significant) bump during my time in Austin.<ul><li>However, this was not due to my observation of the local Chiroptera community;</li><li>Rather, it was due to my listening to a podcast about visually-impaired people who use echo-location to achieve “sight” despite their inability to \"see\" in the most traditional sense;</li><li>If you have time, feel free to check it out <a href=\"https://www.npr.org/2015/01/23/379134306/batman-pt-1\" target=\"_blank\">here</a>.</li></ul>",
-            "HEB is da bomb. Hands down. No further details needed."
+            "During my time in Austin, I felt no particular increase in my personal cowboy levels.",
+            {
+              element_type: "ul",
+              content: [
+                "My desire to rear and tend to cattle remained at a comfortable minimum (I prefer to let livestock live their own lives);",
+                "Any hats I wore remained at a strict 1.5 gallon max;",
+                "I tended to prefer to not ride off directly into the sunset;",
+                {
+                  element_type: "ul",
+                  content: [
+                    "It’s a safety hazard to travel directly towards the sun as its brilliance obstructs (horse) driver visibility;",
+                    "I usually planned my romantic, horse-mounted ride-offs to be angled at a comfortable 15° from a given reference line connecting point A (me) and point B (the sun). Let me know if you need an illustration.",
+                  ],
+                },
+              ],
+            },
+            "My enthusiasm for bats did undergo a small (but statistically-significant) bump during my time in Austin.",
+            {
+              element_type: "ul",
+              content: [
+                "However, this was not due to my observation of the local Chiroptera community;",
+                'Rather, it was due to my listening to a podcast about visually-impaired people who use echo-location to achieve "sight" despite their inability to "see" in the most traditional sense;',
+                'If you have time, feel free to check it out <a href="https://www.npr.org/2015/01/23/379134306/batman-pt-1" target="_blank">here</a>.',
+              ],
+            },
+            "HEB is da bomb. Hands down. No further details needed.",
           ],
         },
         {
           element_type: "p",
           content:
-            "I hope life is treating you well back in Minnesota, and that your “come down” from your big Texas high was manageable. Perhaps you can take solace in the fact that I-35 connects both cities?",
+            'I hope life is treating you well back in Minnesota, and that your "come down" from your big Texas high was manageable. Perhaps you can take solace in the fact that I-35 connects both cities?',
         },
       ],
       "letter-footer": [
@@ -552,7 +575,6 @@ card_messages = {
       ],
     },
   },
-
   "0025": {
     date: "April 9th, 2025",
     content: {
@@ -585,7 +607,6 @@ card_messages = {
       ],
     },
   },
-
   "0041": {
     date: "April 2nd, 2025",
     content: {

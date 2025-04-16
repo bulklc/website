@@ -62,6 +62,47 @@ function forward() {
   highlightCurrentInput();
 }
 
+// function createList(content) {
+//   const listNode = document.createElement("ul");
+//   content.forEach((item) => {
+//     const listItemNode = document.createElement("li");
+//     if (typeof item === "object" && item.element_type === "ul") {
+//       // Recursively create nested lists
+//       const nestedList = createList(item.content);
+//       listItemNode.appendChild(nestedList);
+//     } else {
+//       if (typeof item === "string") {
+//         listItemNode.innerHTML = item;
+//       } else {
+//         listItemNode.innerHTML = item.content;
+//       }
+//     }
+//     listNode.appendChild(listItemNode);
+//   });
+//   return listNode;
+// }
+
+function createList(content) {
+  const listNode = document.createElement("ul");
+  content.forEach((item) => {
+    if (typeof item === "object" && item.element_type === "ul") {
+      // Recursively create nested lists and append directly to the parent list
+      const nestedList = createList(item.content);
+      listNode.appendChild(nestedList);
+    } else {
+      const listItemNode = document.createElement("li");
+      if (typeof item === "string") {
+        listItemNode.innerHTML = item;
+      } else {
+        listItemNode.innerHTML = item.content;
+      }
+      listNode.appendChild(listItemNode);
+    }
+  });
+  return listNode;
+}
+
+
 function show_message(card_messages) {
   const input1 = document.getElementById("input1").value;
   const input2 = document.getElementById("input2").value;
@@ -79,8 +120,6 @@ function show_message(card_messages) {
     document.getElementById("page-content").style.display = "flex";
     // document.getElementById("page-body").style.display = "block";
 
-    
-
     document.getElementById("page-content").innerHTML = `
       <div class="letter-container">
         <div class="letter-header">
@@ -93,21 +132,25 @@ function show_message(card_messages) {
       </div>
     `;
 
-
-
-
     card_messages[message_code].content["letter-body"].forEach((element) => {
       const elementNode = document.createElement(element.element_type);
 
       if (element.element_type === "ul") {
-        element.content.forEach((listItem) => {
-          const listItemNode = document.createElement("li");
-          listItemNode.innerHTML = listItem;
-          elementNode.appendChild(listItemNode);
-        });
+        const listNode = createList(element.content);
+        elementNode.appendChild(listNode);
       } else {
         elementNode.innerHTML = element.content;
       }
+
+      // if (element.element_type === "ul") {
+      //   element.content.forEach((listItem) => {
+      //     const listItemNode = document.createElement("li");
+      //     listItemNode.innerHTML = listItem;
+      //     elementNode.appendChild(listItemNode);
+      //   });
+      // } else {
+      //   elementNode.innerHTML = element.content;
+      // }
 
       document.getElementById("letter-body").appendChild(elementNode);
     });
@@ -116,12 +159,10 @@ function show_message(card_messages) {
       const elementNode = document.createElement(element.element_type);
       elementNode.innerHTML = element.content;
       document.getElementById("letter-footer").appendChild(elementNode);
-
     });
   } else {
     alert(
       "Sorry, no message was found under this four digit code. Please check and try again."
     );
   }
-
 }
