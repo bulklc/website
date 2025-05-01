@@ -521,7 +521,7 @@ card_messages = {
         {
           element_type: "p",
           content:
-            "I hope this card finds you well. How's Alta? Still giant and playful?.",
+            "I hope this card finds you well. How's A? Is she still giant and playful?.",
         },
         {
           element_type: "p",
