@@ -521,7 +521,7 @@ card_messages = {
         {
           element_type: "p",
           content:
-            "I hope this card finds you well. How's A? Is she still giant and playful?.",
+            "I hope this card finds you well. How's A? Is she still giant and playful?",
         },
         {
           element_type: "p",
@@ -553,7 +553,12 @@ card_messages = {
         {
           element_type: "p",
           content:
-            "Also how's R doin? I always look forward to tales of his endeavors.",
+            "I anxiously await the next oppurtunity to see your Muscial PIE team perform. Please let me know as soon as you have a date.",
+        },
+        {
+          element_type: "p",
+          content:
+            "Also, how's R doin? I always look forward to tales of his endeavors.",
         },
         {
           element_type: "p",
@@ -580,7 +585,7 @@ card_messages = {
         {
           element_type: "p",
           content:
-            "I anxiously await the next oppurtunity to see your next Muscial PIE performance. Please let me know as soon as you have a date.",
+            "I anxiously await the next oppurtunity to see your Muscial PIE team perform. Please let me know as soon as you have a date.",
         },
         {
           element_type: "p",
