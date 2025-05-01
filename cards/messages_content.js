@@ -721,7 +721,7 @@ card_messages = {
         {
           element_type: "p",
           content:
-            "Please note I got a little distracted with the quarters when arranging them chronologically. I’d like to list my observations below, so that you may be distracted as well.",
+            "Please note I got a little distracted with the quarters while I arranged them in order of mint-date. I’d like to list my observations below, so that you may be distracted as well:",
         },
         {
           element_type: "ul",
