@@ -723,7 +723,7 @@ card_messages = {
           content: [
             'The first quarter was released unto the public the same year as "The Deer Hunter". Fun.',
             'There are two "Great Sand Dunes" quarters. This is entirely coincidental. Maybe there’s just a glut of these currently in circulation?',
-            "The last quarter is pretty sick. I learned a little about <a href=\"https://en.wikipedia.org/wiki/Mary_Edwards_Walker\" target=\"_blank\">Mary Edwards Walker</a>. She was pretty cool. She did a lot of inventive medical work, but she was also a POW during the Civil War. If they ever make a movie about her, I’d prolly watch it.",
+            "The last quarter is pretty sick. I learned a little about <a href=\"https://en.wikipedia.org/wiki/Mary_Edwards_Walker\" target=\"_blank\">Mary Edwards Walker</a>. She was pretty groovy. She did a lot of inventive medical work, but she was also a POW during the Civil War. If they ever make a movie about her, I’d prolly watch it.",
           ],
         },
       ],
