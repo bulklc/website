@@ -607,6 +607,43 @@ card_messages = {
       ],
     },
   },
+
+  "0037": {
+    date: "May 1st, 2025",
+    content: {
+      "letter-body": [
+        { element_type: "p", content: "Dearest R," },
+        {
+          element_type: "p",
+          content:
+            "While I have lost track of my gambling debts over the course of our friendship, it is my hope that the monies enclosed within this post are more than adequate compensation.",
+        },
+        {
+          element_type: "p",
+          content:
+            "If I had to bet (which I should stop doing), I believe I owe you a total of three quarters. Thus, the six enclosed effect a 2X confidence of payment. I also threw in the Taiwanese Dollars for good measure.",
+        },
+        {
+          element_type: "p",
+          content:
+            "Please note I got a little distracted with the quarters when arranging them chronologically. I’d like to list my observations below, so that you may be distracted as well.",
+        },
+        {
+          element_type: "ul",
+          content: [
+            'The first quarter was released unto the public the same year as "The Deer Hunter". Fun.',
+            'There are two "Great Sand Dunes" quarters. This is entirely coincidental. Maybe there’s just a glut of these currently in circulation?',
+            "The last quarter is pretty sick. I learned a little about <a href=\"https://en.wikipedia.org/wiki/Mary_Edwards_Walker\" target=\"_blank\">Mary Edwards Walker</a>. She was pretty cool. She did a lot of inventive medical work, but she was also a POW during the Civil War. If they ever make a movie about her, I’d prolly watch it.",
+          ],
+        },
+      ],
+      "letter-footer": [
+        { element_type: "p", content: "Best," },
+        { element_type: "p", content: "Chris BL" },
+      ],
+    },
+  },
+
   "0041": {
     date: "April 2nd, 2025",
     content: {
