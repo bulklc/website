@@ -513,6 +513,99 @@ card_messages = {
       ],
     },
   },
+  "0017": {
+    date: "May 1st, 2025",
+    content: {
+      "letter-body": [
+        { element_type: "p", content: "Dearest R," },
+        {
+          element_type: "p",
+          content:
+            "I hope this card finds you well. How's Alta? Still giant and playful?.",
+        },
+        {
+          element_type: "p",
+          content:
+            "And how have you been? How's the new job treatin ya?",
+        },
+        {
+          element_type: "p",
+          content:
+            "Finally, how's your washer machine? Still productive and dependable?",
+        },
+      ],
+      "letter-footer": [
+        { element_type: "p", content: "Best," },
+        { element_type: "p", content: "Chris BL" },
+      ],
+    },
+  },
+  "0018": {
+    date: "May 1st, 2025",
+    content: {
+      "letter-body": [
+        { element_type: "p", content: "Dearest N," },
+        {
+          element_type: "p",
+          content:
+            "I hope this card finds you well. I hope you'll excuse the name abbreviations, which I utilize in search of secuity and privacy between friends.",
+        },
+        {
+          element_type: "p",
+          content:
+            "Also how's R doin? I always look forward to tales of his endeavors.",
+        },
+        {
+          element_type: "p",
+          content:
+            "I hope to share rose-flavored treats with you again sometime soon.",
+        }
+      ],
+      "letter-footer": [
+        { element_type: "p", content: "Best," },
+        { element_type: "p", content: "Chris BL" },
+      ],
+    },
+  },
+  "0019": {
+    date: "May 1st, 2025",
+    content: {
+      "letter-body": [
+        { element_type: "p", content: "Dearest R," },
+        {
+          element_type: "p",
+          content:
+            "I hope this card finds you well. How's B doing? I hope he's still happy and majaestic as always.",
+        },
+        {
+          element_type: "p",
+          content:
+            "I anxiously await the next oppurtunity to see your next Muscial PIE performance. Please let me know as soon as you have a date.",
+        },
+        {
+          element_type: "p",
+          content:
+            "Lastly, I have no idea exactly when you'll get this card. On the off-chance that you get it on Saturday, May 4th, I'll see ya tonight!",
+        },
+        {
+          element_type: "p",
+          content:
+            "If you get it before then (which is unlikely), I'll see ya Saturday! Can't wait for the lolz."
+        },
+        {
+          element_type: "p",
+          content:
+            "If you get this after then, I'd like to offer my deepest apologies for how brutally I heckled the commedians. They just seemed so innocent and vulnerable. I couldn't control my instincts to tear them apart like prey.",
+        },
+      ],
+      "letter-footer": [
+        { element_type: "p", content: "Best," },
+        { element_type: "p", content: "Chris BL" },
+      ],
+    },
+  },
+
+
   "0021": {
     date: "April 16th, 2025",
     content: {
@@ -607,7 +700,6 @@ card_messages = {
       ],
     },
   },
-
   "0037": {
     date: "May 1st, 2025",
     content: {
@@ -616,7 +708,7 @@ card_messages = {
         {
           element_type: "p",
           content:
-            "While I have lost track of my gambling debts over the course of our friendship, it is my hope that the monies enclosed within this post are more than adequate compensation.",
+            "While I have lost track of my gambling debts over the course of our friendship, it is my hope that the monies enclosed within this postage are more than adequate compensation.",
         },
         {
           element_type: "p",
@@ -640,10 +732,12 @@ card_messages = {
       "letter-footer": [
         { element_type: "p", content: "Best," },
         { element_type: "p", content: "Chris BL" },
+        { element_type: "p", content: "" },
+        { element_type: "p", content: "<b>PS:</b> Please pay no attention to the fact that the cost of this postage was far greater than the cost of debts payed therein." },
+
       ],
     },
   },
-
   "0041": {
     date: "April 2nd, 2025",
     content: {
